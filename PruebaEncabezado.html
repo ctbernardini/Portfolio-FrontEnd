@@ -1,15 +1,49 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title> Titulo de prueba</title>
-    </head>
 
-    <body>
-        <h1> Encabezado nro 1 </h1>
-        <h2> Encabezado nro 2 </h2>
-        <h3> Encabezado nro 3 </h3>
-        <h4> Encabezado nro 4 </h4>
-        <h5> Encabezado nro 5 </h5>
-        <h6> Encabezado nro 6 </h6>
-    </body>
+<html lang="en">
+
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="dist/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <title>Instalación atada, compilada y minimizada de bootstrap</title>
+  </head>
+
+  <body>
+    <h1>Atado, compilado y minimizado</h1>
+    <h2>Descargue carpeta de bootstrap a \dist</h2>
+    <h3>Con solo agregar las lineas anteriores ya debería estar disponible</h3>
+    <h4> Encabezado nro 4 </h4>
+    <h5> Encabezado nro 5 </h5>
+    <h6> Encabezado nro 6 </h6>
+    <!-- Bootstrap JS -->
+    <script src="dist/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Control the column width, and how they should appear on different devices -->
+    <!-- Primer * representa el tamaño de pantalla dde se va a usar la web -->
+    <!-- Segundo * representa el ancho de columna? -->
+
+ <div class="container"> 
+    <div class="row">
+        <div class="col-xl-11">Pruebo Columnas con texto mas largo para ver si uso mas pantallla o como funciona el 11</div>
+        <div class="col-xl-1">O quizas sean filas pero esto es uno y es ancho igual</div>
+    </div>
+</div>
+<div class="container"> 
+  <div class="row">
+    <div class="col-3">Prueba1</div>
+    <div class="col-5">Prueba2</div>
+    <div class="col-4">Prueba3</div>
+  </div>
+</div> 
+  <!-- Or let Bootstrap automatically handle the layout -->
+  <div class="row">
+    <div class="col"></div>
+    <div class="col"></div>
+    <div class="col"></div>
+  </div>
+  </body>
+
 </html>
