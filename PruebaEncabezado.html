@@ -12,6 +12,7 @@
   </head>
 
   <body>
+    
     <h1>Atado, compilado y minimizado</h1>
     <h2>Descargue carpeta de bootstrap a \dist</h2>
     <h3>Con solo agregar las lineas anteriores ya debería estar disponible</h3>
@@ -25,29 +26,72 @@
     <!-- Primer * representa el tamaño de pantalla dde se va a usar la web -->
     <!-- Segundo * representa el ancho de columna (* en 12 digamos) -->
 
- <div class="container"> 
-    <div class="row">
-        <div class="col-xl-11">Pruebo Columnas con texto mas largo para ver si uso mas pantallla o como funciona el 11</div>
-        <div class="col-xl-1">O quizas sean filas pero esto es uno y es ancho igual</div>
+    <div class="container"> 
+        <div class="row">
+            <div class="col-xl-11">Pruebo Columnas con texto mas largo para ver si uso mas pantallla o como funciona el 11</div>
+            <div class="col-xl-1">O quizas sean filas pero esto es uno y es ancho igual</div>
+        </div>
     </div>
-</div>
-<div class="container"> 
-  <div class="row">
-    <div class="col-3">Prueba1</div>
-    <div class="col-5">Prueba2</div>
-    <div class="col-4">Prueba3</div>
-  </div>
-</div> 
+    <div class="container"> 
+    <div class="row">
+        <div class="col-3">Prueba1</div>
+        <div class="col-5">Prueba2</div>
+        <div class="col-4">Prueba3</div>
+    </div>
+    </div> 
 
-  <!-- Or let Bootstrap automatically handle the layout -->
-  <!-- quedan equidistantes, deberia probar con mucha cantidad de texto para ver-->
-  <!-- Con esto veo que no es excluyente el uso de container, pero quizas sea sugerido: -->
+    <!-- Or let Bootstrap automatically handle the layout -->
+    <!-- quedan equidistantes, deberia probar con mucha cantidad de texto para ver-->
+    <!-- Con esto veo que no es excluyente el uso de container, pero quizas sea sugerido: -->
 
-  <div class="row">
-    <div class="col">Pruebo el auto width</div>
-    <div class="col">Con varias</div>
-    <div class="col">Longitudes de mensajes para probar como queda</div>
-  </div>
+    <div class="row">
+        <div class="col">Pruebo el auto width</div>
+        <div class="col">Con varias</div>
+        <div class="col">Longitudes de mensajes para probar como queda</div>
+    </div>
+
+    <div class="alert alert-primary" role="alert">
+        Verifico como andan las alertas
+    </div>
+    <button type="button" class="btn btn-dark">PruebaBTN</button>  
+    
+    <!-- Probando barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+
   </body>
 
 </html>
