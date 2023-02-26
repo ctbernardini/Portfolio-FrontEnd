@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en"> 
+<head>
+    <title>Portfolio Web</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <script src="jquery/jquery.js"></script>
+    <script type="text/javascript" src='js/bootstrap.min.js'></script>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link href="dist/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <title>Carolina Bernardini Tucat</title>
+</head>
+
+<body>
+   <script src="app/app.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="dist/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
+    <!-- Ubico barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        
+      <!-- Para poder posicionar, usar atributo de clase mx para despl hor e yx para despl vert-->
+      <a class="navbar-brand mx-sm-2"> Carolina Bernardini</a>
+         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+              <!-- no funciona asi, falta declarar la lista con los componentes OK -->            
+              <!-- <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                Secciones
+              </a>
+             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Datos de contacto</a>
+                <a class="dropdown-item" href="#">Experiencia laboral</a>
+                <a class="dropdown-item" href="#">Formación académica</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div> 
+            </li> -->
+            
+            <!-- Esta es la forma correcta -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Secciones
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Datos de contacto</a></li>
+                  <li><a class="dropdown-item" href="#">Experiencia Laboral</a></li>
+                  <li><a class="dropdown-item" href="#">Formacion academica</a></li>
+                  <li><a class="dropdown-item" href="#">Formacion adicional</a></li>
+                  <li><a class="dropdown-item" href="#">Becas y voluntariados</a></li>
+                </ul>
+              </li>
+          </ul>
+        </div>
+
+        
+        <!-- Inserto seccion alineada a derecha para btn redes sociales -->
+        <form class="form-inline my-2 my-lg-0">
+          <button type="button" class="btn btn-info mx-sm-2 my-4 my-sm-0">Info</button>
+        </form>
+      </nav>
+
+
+    <!-- Para posicionar elementos: 
+      
+      <div class="position-relative">
+    <div class="position-absolute top-0 start-0"></div>
+    <div class="position-absolute top-0 start-50 translate-middle-x"></div>
+    <div class="position-absolute top-0 end-0"></div>
+    <div class="position-absolute top-50 start-0 translate-middle-y"></div>
+    <div class="position-absolute top-50 start-50 translate-middle"></div>
+    <div class="position-absolute top-50 end-0 translate-middle-y"></div>
+    <div class="position-absolute bottom-0 start-0"></div>
+    <div class="position-absolute bottom-0 start-50 translate-middle-x"></div>
+    <div class="position-absolute bottom-0 end-0"></div>
+    </div>
+  -->
+
+</body>
